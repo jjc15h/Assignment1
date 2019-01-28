@@ -1,1 +1,11 @@
+Microsoft Windows [Version 10.0.17134.523]
+(c) 2018 Microsoft Corporation. All rights reserved.
 
+C:\Users\Jeremiah's PC\Documents\GitHub\Assignment1>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Jeremiah's PC\Documents\GitHub\Assignment1>
