@@ -1,0 +1,89 @@
+Question (a):
+	
+Microsoft Windows [Version 10.0.17134.523]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Jeremiah's PC\Documents\GitHub\Assignment1>git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Jeremiah's PC\Documents\GitHub\Assignment1>git push
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 911 bytes | 14.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/jjc15h/Assignment1.git
+   3d373c9..7013ae9  master -> master
+
+C:\Users\Jeremiah's PC\Documents\GitHub\Assignment1>
+
+Question (b):
+
+4 commits have been had so far. I used "git log" to get this information.
+
+Question (c):
+
+I used the console command: git log .gitignore
+
+which told me that the file was last modified on Thu Jan 10 16:45:38 2019
+
+Question (d):
+
+One reason why branches are used in a git repository are because they are incredibly cheap to
+create and destroy. It is much more efficient to create a branch rather than coppying the code
+into a second folder.
+
+Another big reason why branches are used is because it helps organize a project and allows 
+multiple people to work on the coding project simulatiously.
+
+Question (e):
+
+git log will show you the project's history and the commits that have been made throughout its
+history.
+
+Whereas, git status will track files that have not been commited yet as well as which files have
+been modified. 
+
+Question (f):
+
+git log --follow Weapon.h
+
+Question (g):
+
+git log --grep="file"
+
+Question (h):
+
+In the context of object-oriented programming, inheritance is when an object takes on some of the 
+properties of a parent object. For example, a class detailing the functions of a dog might take
+some functions from a more general class that describes the function of an animal.
+
+Polymorphism is when the behavior of a function changes based on the object calling it. For example,
+an animal class may have the function "Speak". Classes that are derived from this animal, may change
+what this does when their object calls it. Like a dog class may print out "Bark" when called while
+a cat class may print out "meow" when called, however both classes would be calling the same function
+"Speak" that was listed in the animal class.
+
+Encapsulation is when you hide data inside of the methods that work on that data so that other people
+don't have access to them. 
+
+Question (i):
+
+The main difference between the "Dictator and Lieutenants" workflow and the "Integration Management"
+work flow is that the "Dictator and Lieutenants" workflow has an extra management layer called 
+Lieutenants who pool in the work of the developers, fix any conflicts, and sends them off to the
+dictator, whereas the other workflow method has every developer send their work directly to the 
+dictator.
+
+Question (j):
+
+A team of developers would benefit more using the Dictator and Lieutenants workflow model because
+It would be a lot more work for a single dictator to manage the possible conflicts of 100 developers,
+rather than to have several Lieutenants with their own team of developers to do that work for him. 
+Managing the possible conflicts of several Lieutenants would be much more efficient.
