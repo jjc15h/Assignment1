@@ -1,7 +1,7 @@
-/* 
+/*
  * File:   CommonSword.cpp
  * Author: Javier <jrescobara@gmail.com>
- *  
+ *
  */
 
 #include "CommonSword.h"

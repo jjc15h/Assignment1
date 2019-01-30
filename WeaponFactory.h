@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   WeaponFactory.h
  * Author: Javier <jrescobara@gmail.com>
  *
@@ -11,10 +11,10 @@
 
 /**
  * Creation of weapons is encapsulated into the WeaponFactory class.
- *  
+ *
  */
 class WeaponFactory{
-public:    
+public:
     /**
      * Return an implementation of a weapon given its name
      * @param name Name of the weapon to be created
@@ -25,16 +25,16 @@ public:
      * Returns a singleton of type WeaponFactory
      * @return An instance of WeaponFactory. There will be only one instance of this class in the entire prototype
      */
-    static WeaponFactory* getInstance();    
+    static WeaponFactory* getInstance();
     /**
      * Destructor
      */
-    ~WeaponFactory(){}    
+    ~WeaponFactory(){}
 private:
     static WeaponFactory *instance;
     WeaponFactory(){};
 
-}; 
+};
 
 #endif /* WEAPONFACTORY_H */
 

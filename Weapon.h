@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   Weapon.h
  * Author: Javier <jrescobara@gmail.com>
  *
@@ -12,8 +12,8 @@
 
 /**
  * Defines the specification of a weapon. A weapon must define its hitpoints
- * as well as its behavior in the presence of armor. If there is no armor, the 
- * weapon inflicts damage equals to its hitpoints. 
+ * as well as its behavior in the presence of armor. If there is no armor, the
+ * weapon inflicts damage equals to its hitpoints.
  */
 class Weapon {
 protected:
@@ -27,7 +27,7 @@ protected:
     double hitPoints;
 public:
     /**
-     * 
+     *
      * @param name Weapon's name
      * @param hitPoints Weapon's hitpoints
      */
@@ -47,7 +47,7 @@ public:
     std::string getName();
 
     /**
-     * Returns the damage of the weapon in presence of armor 
+     * Returns the damage of the weapon in presence of armor
      * @param armor Amount of armor of the character the weapoin is hitting to
      * @return The damage inflicted by the weapon
      */

@@ -1,7 +1,7 @@
-/* 
+/*
  * File:   CommonSword.h
  * Author: Javier <jrescobara@gmail.com>
- * 
+ *
  * Created on September 25, 2017, 3:31 PM
  */
 
