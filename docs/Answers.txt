@@ -87,3 +87,9 @@ A team of developers would benefit more using the Dictator and Lieutenants workf
 It would be a lot more work for a single dictator to manage the possible conflicts of 100 developers,
 rather than to have several Lieutenants with their own team of developers to do that work for him. 
 Managing the possible conflicts of several Lieutenants would be much more efficient.
+
+Question 5:
+The roleplaying game is using both Polymorphism and Encapsulation. An example of the game using Polymorphism 
+is in the main function. The weapon object overloads the hit function so that depending on whether or not
+there is armor involved, different function definitions are called. An example of encapsulation would be how 
+the Weapon.h file has getter functions to access the name of weapons rather than accessing the variable directly.

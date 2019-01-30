@@ -6,6 +6,12 @@
 #include "Weapon.h"
 #include <time.h>
 #include <cmath>
+
+/*
+NOTE: I did have to look up on the cplusplus website to figure out how to get random numbers.
+Doing this I was able to figure out that I needed to include the cmath and time.h libraries.
+*/
+
 class CrazyRandomSword : public Weapon {
 public:
 
@@ -44,5 +50,4 @@ public:
     }
 
 };
-// Got cmath and Cieling from c++ website
 #endif // CRAZYRANDOMSWORD_H_INCLUDED
